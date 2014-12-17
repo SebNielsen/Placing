@@ -1,0 +1,33 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package Testing;
+
+import battleship.examples.ProbDensityPlayer;
+import battleship.interfaces.Fleet;
+import battleship.interfaces.Ship;
+import org.junit.After;
+import org.junit.AfterClass;
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.Test;
+import static org.junit.Assert.*;
+
+/**
+ *
+ * @author Tobias
+ */
+public class TestMatrix {
+    
+    public TestMatrix() {
+    }
+
+    
+    @Test
+    public void test1() {
+        ProbDensityPlayer prob = new ProbDensityPlayer();
+    }
+    
+}

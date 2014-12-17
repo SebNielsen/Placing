@@ -1,0 +1,10 @@
+//random prob
+        int x = 0;
+        int y = 0;
+        x = rnd.nextInt(sizeX) + rnd.nextInt(2);
+        y = rnd.nextInt(sizeY) + rnd.nextInt(2);
+        
+        Position newPos = new Position(x, y);
+
+        //biased prob
+       
